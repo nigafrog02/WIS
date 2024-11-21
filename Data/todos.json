@@ -1,0 +1,60 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "Tasks": "Learn React",
+      "Duedate": "10/5/2024",
+      "Category": "Personal",
+      "Status": "Complete"
+    },
+    {
+      "id": 2,
+      "Tasks": "Gym Workout",
+      "Duedate": "10/12/2024",
+      "Category": "Personal",
+      "Status": "Pending"
+    },
+    {
+      "id": "3",
+      "Tasks": "testing",
+      "Duedate": "22/11/2024",
+      "Category": "Personal",
+      "Status": "Pending"
+    },
+    {
+      "id": "3",
+      "Tasks": "Bench press",
+      "Duedate": "23/11/2024",
+      "Category": "Category",
+      "Status": "Pending"
+    },
+    {
+      "id": "3",
+      "Tasks": "BenchPress",
+      "Duedate": "24/11/2024",
+      "Category": "Personal",
+      "Status": "Pending"
+    },
+    {
+      "id": "4",
+      "Tasks": "Pullups",
+      "Duedate": "22/11/2024",
+      "Category": "Work",
+      "Status": "Pending"
+    },
+    {
+      "id": "8d572b6d-8657-4d8d-9e2d-7488d21d76e1",
+      "Tasks": "learn rnglish",
+      "Duedate": "22/11/2024",
+      "Category": "Work",
+      "Status": "Completed"
+    },
+    {
+      "id": "1818c2d5-bcaf-4924-97eb-94570b74fb18",
+      "Tasks": "learn chinese",
+      "Duedate": "23/11/2024",
+      "Category": "Personal",
+      "Status": "Pending"
+    }
+  ]
+}
