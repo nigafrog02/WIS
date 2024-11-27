@@ -4,8 +4,9 @@
 
 First, run the json server:
 
+```bash
 npm run json-server
-
+```
 second, run the development server:
 
 ```bash
