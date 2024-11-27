@@ -1,3 +1,4 @@
+import Task from "./components/Todoitem";
 
 // @ts-check
 const baseUrl = "http://localhost:3001";
@@ -28,5 +29,24 @@ export const addTask = async (/** @type {ITask} */ task) => {
     return newTask;
 };
 
+export const EditTask = async (/** @type {ITask} */ task) => {
+  
+  const response = await fetch(`${baseUrl}/tasks/${task.id}`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(task),
+  })
+  const UpdateTask = await response.json();
+  return UpdateTask;
+};
+
+export const DeleteTask = async (/** @type {ITask} */ id) => {
+  
+  await fetch(`${baseUrl}/tasks/${id}`, {
+    method: "DELETE",
+  })
+};
 
 

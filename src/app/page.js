@@ -1,8 +1,14 @@
 // @ts-check
+"use client";
 import React from "react";
 import Addtask from "./components/Addtask";
 import Todolist from "./components/Todolist";
+import ExportExcel from "./components/Exportexcel";
 import { getTasks } from "@/app/api";
+import { SlCalender } from "react-icons/sl";
+import Link from "next/link";
+
+
 
 
 export default async function Home() {
@@ -16,6 +22,15 @@ export default async function Home() {
           <Addtask/>
         </div>
         <Todolist tasks={tasks}/>
+        <div className="text-center my-5 flex flex-col gap-4">
+        <ExportExcel />
+        <Link href="/calpage">
+        
+          <button className="btn btn-primary"><SlCalender />
+            Calender
+          </button>
+        </Link>
+        </div>
         </main>
         
     

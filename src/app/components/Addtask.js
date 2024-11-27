@@ -22,7 +22,7 @@ const AddTask = () => {
     useEffect(() => {
         if (dateInputRef.current) {
           flatpickr(dateInputRef.current, {
-            dateFormat: "d/m/Y", // Format the date
+            dateFormat: "Y-m-d", // Format the date
             minDate: "today", // Disable past dates thx flatpckr Docs
             onChange: (selectedDates, dateStr, instance) => {
                 setNewTaskDate(dateStr); // Update the state with the selected date thx gpt for this
@@ -58,7 +58,7 @@ const AddTask = () => {
     return (
         
         <div>
-            <button onClick={()=> setIsOpen(true)} className="btn btn-primary w-full">AddTask<FcAddRow className="ml-2" size={20}/>
+            <button onClick={()=> setIsOpen(true)} className="btn btn-primary w-full"><FcAddRow className="ml-2" size={20}/>AddTask
             </button>
 
             <Modal modalOpen={isOpen} setIsOpen={setIsOpen}>

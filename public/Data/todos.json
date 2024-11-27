@@ -1,0 +1,53 @@
+{
+  "tasks": [
+    {
+      "id": "3cfddcf8-3f7f-4f26-9ec1-905faa2d332f",
+      "Tasks": "BenchPress",
+      "Duedate": "2024-11-25",
+      "Category": "Work",
+      "Status": "Pending"
+    },
+    {
+      "id": "3db18047-bf73-425e-849d-c6a86fe34806",
+      "Tasks": "PullUps",
+      "Duedate": "2024-11-28",
+      "Category": "Personal",
+      "Status": "Pending"
+    },
+    {
+      "id": "9e0973be-dbfc-4136-a3fa-318acc685c16",
+      "Tasks": "Push Up",
+      "Duedate": "2024-11-28",
+      "Category": "Work",
+      "Status": "Completed"
+    },
+    {
+      "id": "1ccaef8c-2f0f-4610-af61-a96642e5a964",
+      "Tasks": "Leg Raise",
+      "Duedate": "2024-11-30",
+      "Category": "Personal",
+      "Status": "Pending"
+    },
+    {
+      "id": "cd9ba6b3-378c-46fa-bcc6-50bca6bf24de",
+      "Tasks": "DeadLift",
+      "Duedate": "2024-12-04",
+      "Category": "Personal",
+      "Status": "Completed"
+    },
+    {
+      "id": "a204e0c4-348e-45ea-b56f-5ae759915cff",
+      "Tasks": "Learn NextJS",
+      "Duedate": "2024-12-14",
+      "Category": "Work",
+      "Status": "Pending"
+    },
+    {
+      "id": "3ae1b939-2f81-43d4-ac3a-3b7430694a77",
+      "Tasks": "Testing",
+      "Duedate": "2024-11-27",
+      "Category": "Work",
+      "Status": "Pending"
+    }
+  ]
+}

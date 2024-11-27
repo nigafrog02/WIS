@@ -7,13 +7,16 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "json-server": "json-server --watch Data/todos.json --port 3001"
+    "json-server": "json-server --watch public/Data/todos.json --port 3001"
   },
   "dependencies": {
+    "date-fns": "^4.1.0",
     "flatpickr": "^4.6.13",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
+    "react-calendar": "^5.1.0",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "concurrently": "^9.1.0",
