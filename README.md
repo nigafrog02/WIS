@@ -7,7 +7,7 @@ First, run the json server:
 ```bash
 npm run json-server
 ```
-second, run the development server:
+second, run the development server (new terminal):
 
 ```bash
 npm run dev
